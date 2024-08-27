@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './Main.css';
 
 
+
 function Main() {
     const [count, setCount] = useState(0);
-
     const handleClick = () => {
         // if (count < 10000) // лимит до 10000 
         {

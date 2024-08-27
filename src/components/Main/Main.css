@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+button {
+    width: 200px;
+    height: 100px;
+}
 
 .increment-button,
 button {
@@ -20,7 +24,7 @@ button {
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 30px;
     cursor: pointer;
     outline: none;
 }
@@ -31,7 +35,7 @@ button:hover {
 }
 
 .count {
-    font-size: 36px;
+    font-size: 40px;
     margin-top: 20px;
     font-weight: bold;
     display: flex;
@@ -41,7 +45,7 @@ button:hover {
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 button {
